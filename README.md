@@ -1,7 +1,7 @@
 # Teste_Software_2024_Carvalho_Pedro
 
 ## Resumo do Problema
-Problema: Você tem um método assíncrono DoSomethingAsync() em uma interface que retorna Task. Ao testar com o Moq, o teste falha quando o código sob teste aguarda a chamada a DoSomethingAsync().
+Problema: O autor da pergunta tem um método assíncrono DoSomethingAsync() em uma interface que retorna Task. Ao testar com o Moq, o teste falha quando o código sob teste aguarda a chamada a DoSomethingAsync().
 
 Solução Aceita: A solução aceita configura o mock para retornar uma Task que é completada imediatamente, o que permite que o teste passe sem erros.
 
