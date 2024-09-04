@@ -1,5 +1,7 @@
 # Teste_Software_2024_Carvalho_Pedro
 
+### Problema no StackOverflow: https://stackoverflow.com/questions/21253523/how-can-i-tell-moq-to-return-a-task
+
 ## Resumo do Problema
 Problema: O autor da pergunta tem um método assíncrono DoSomethingAsync() em uma interface que retorna Task. Ao testar com o Moq, o teste falha quando o código sob teste aguarda a chamada a DoSomethingAsync().
 
